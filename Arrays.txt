@@ -1,0 +1,10 @@
+Use : MDN website for reference
+
+1.Arrays defination
+2.Array methods
+3.Slice,Splice
+4.Array push,pop
+5.Array Concat()
+6.Array multiple Concat 
+    ex : const arr = [...arr1,...arr2,...arr3]
+7.Array flat()

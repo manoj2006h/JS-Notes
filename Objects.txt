@@ -1,0 +1,10 @@
+Use : MDN website for reference
+
+
+1.Two types : Singleton & object literals
+2.Object defination
+3.Two types of accesising items in an object 
+    i. using . operator
+    ii. using ["item_name"] this synatx 
+4.How to use Symbol type in object's item 
+5.Object.freeze()
