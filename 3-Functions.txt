@@ -1,0 +1,4 @@
+1.Function multiple syntax
+2.Function defination & parameters 
+3.Function call & arguments
+4.Rest operator in function => it returns array
