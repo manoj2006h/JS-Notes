@@ -1,0 +1,5 @@
+1.Difference between let,const,var
+2.Local/Block scope and Global scope
+
+NOTE : The global scope of windows(i.e., when inspect any website and open console) is differnt from global scope of nodeJS
+
