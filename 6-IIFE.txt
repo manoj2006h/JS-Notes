@@ -1,0 +1,27 @@
+Immediately Invoked Function Expressions (IIFE)
+
+function chai() {
+    console.log("DB Connected")                     // Regular function calls
+}
+chai()
+
+(OR)
+
+(fucntion chai() {
+    console.log("DB Connected")                // Named IIFE (It has a name "chai")     
+})();
+
+//Immediately Invoked fucntion i.e., without calling the function,the function is automatically called.
+
+Note : Always use semicolon in IIFE , bcoz without ; compiler would not known where to stop the function.
+
+Note : Why do we use IIFE ?
+Bcoz to avoid global scope pollution 
+
+Note : Can also write a arrow function in IIFE (Called as Unnamed IIFE)
+
+Note : Can also pass parameters in IIFE
+
+((name) => {
+    console.log(`Hello ${name}`)
+})('Manoj');
