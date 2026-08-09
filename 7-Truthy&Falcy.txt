@@ -1,0 +1,9 @@
+Truthy - Always true
+Falcy - Always false
+
+
+Some truthy and falcy value in JS
+
+Falsy Values - false , 0 , -0 , 0n (i.e., BigInt notation) , "" ,  null , undefined , NaN
+
+Truthy Values -  true , 1 , "0" , 'false' (Does not matter single or double coats) ,  " " , [] , {} , function(){}
