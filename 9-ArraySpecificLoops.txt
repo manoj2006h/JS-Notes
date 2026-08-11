@@ -1,0 +1,50 @@
+1. for of => it goes like (let i ; i<arr.lenght ; i++)
+
+Loop which are mainly focused on Arrays
+
+Note : Its not only for array ! you can use for strings , objects , etc but , frequently used for arrays most of the time 
+
+
+
+    syntax : for(const i of arr) {
+        ....
+    }
+
+2. for In
+
+Loop which is mainly used on objects 
+Bcoz it returns the value of key present in the object
+
+    syntax : for(const key in object) {
+        ....
+    }
+
+
+    ex : const myObject = {
+        js : "Java Script"
+        cpp : "C++"
+        html : "Hyper text markup language"
+        css : "Cascading style sheets"
+      }
+
+      for(const key in myObject) {
+        console.log(key)        ==> o/p ==> js cpp html css
+      }
+
+      for(const key on myObject) {
+        console.log(myObject[key])      ==> o/p ==> JavaScript C++ ....
+      }
+
+        
+    Note : Can also run on an Array but it returns the indices of the array
+
+
+    ex : const myArr = ["JS","CPP","HTML","CSS"]
+
+    for(const i in myArr) {
+        console.log(i)          ==> o/p ==> 0,1,2,3
+    }
+
+     for(const i in myArr) {
+        console.log(myArr[i])          ==> o/p ==> JS CPP HTML CSS
+    }
