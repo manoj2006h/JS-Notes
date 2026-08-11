@@ -1,0 +1,13 @@
+Maps is one of the datatypes in JS
+
+It is like object - i.e., it stores data in key-value pair 
+
+Note : It only stores unique values(No duplicate values / Dulpicate values are ignored) and it remembers the order in which data is stored
+
+Ex : const map = new Map();
+
+map.set('In',"India")
+map.set('USA', "United States of America")
+
+FOR MORE INFORMATION GO TO "MDN WEBSITE"
+
