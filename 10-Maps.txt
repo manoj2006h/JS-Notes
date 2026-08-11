@@ -9,5 +9,4 @@ Ex : const map = new Map();
 map.set('In',"India")
 map.set('USA', "United States of America")
 
-FOR MORE INFORMATION GO TO "MDN WEBSITE"
-
+FOR MORE INFORMATION GO TO "MDN WEBSITE".
