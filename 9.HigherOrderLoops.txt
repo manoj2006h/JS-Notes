@@ -48,3 +48,20 @@ Bcoz it returns the value of key present in the object
      for(const i in myArr) {
         console.log(myArr[i])          ==> o/p ==> JS CPP HTML CSS
     }
+
+
+3. for each 
+
+It is one of the in-built methods of Array
+
+syntax : arr.forEach( function(item ) = {        ==> The function which is written inside the forEach call should not have a name 
+    .....
+})
+
+Note : Can also use Arrow function inside the forEach method call
+
+ex : arr.forEach( (item) => {
+        console.log(item)
+})
+
+DO READ MDN FOR THIS LOOP
